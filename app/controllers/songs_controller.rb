@@ -13,12 +13,16 @@ class SongsController < ApplicationController
   end
 
   def edit
+    @song = Song.find(params[:id])
   end
 
   def update
   end
 
   def destroy
+    @song = Song.find(params[:id])
+    @song.destroy
+    redirect_to songs_url
   end
 
   def index
