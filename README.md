@@ -1,3 +1,5 @@
+rails g resource Song title:string released:boolean release_year:integer artist_name:string genre:string
+
 # CRUD With Validations Lab
 
 Your goal in this lab is to create a thorough CRUD interface for one model, the
