@@ -16,4 +16,5 @@ class Song < ApplicationRecord
 
   def released?
     released
+  end
 end
